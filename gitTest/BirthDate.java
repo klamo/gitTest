@@ -1,5 +1,7 @@
 //马士兵老师在内存解析_2中的例子
 
+//clone 提交
+
 class BirthDate {	//建立类
 	private int day;//静态变量
 	private int month;
