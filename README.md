@@ -653,3 +653,10 @@ public class OrderVo {
 
     
 }
+CREATE TABLE `t_business_type` (
+`id`  int(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键ID，也是业务类型ID' ,
+`business_name`  varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '' COMMENT '业务类型名称' ,
+`business_status`  tinyint(1) UNSIGNED NOT NULL DEFAULT 1 COMMENT '业务类型状态：0.已删除 , 1.可用' ,
+PRIMARY KEY (`id`)
+)
+;
